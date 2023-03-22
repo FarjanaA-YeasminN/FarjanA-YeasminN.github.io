@@ -17,7 +17,11 @@ body{
 }
 
 h1{
+    color: black;
     background-color: #abb9b9;
+}
+h2{
+    color: black;
 }
 
 .home_container{
@@ -224,7 +228,7 @@ h1{
     background-color: #abb9b9;
     float: left;
     width: 30%;
-    height: 200px;
+    height: 210px;
     color:black;
     margin: 10px;
     padding: 20px 10px;
