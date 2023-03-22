@@ -14,6 +14,7 @@ body{
 h1{
     font-family: 'Fira Sans Condensed', sans-serif;
 }
+
 a{
     color: white;
     text-decoration: none;
@@ -51,6 +52,7 @@ a{
 
 /* About Section design start here */
 /* About menu design */
+
 .about_menu a{
     background-color:#406f70 ;
     margin: 2px;
@@ -333,26 +335,49 @@ a{
     width: 80%;
   }
   .bar .line.css span{
-    width: 70%;
+    width: 80%;
   }
+
+  .bar .line.js span{
+    width: 85%;
+  }
+
   .bar .line.python span{
     width: 60%;
   }
   .bar .line.c span{
-    width: 50%;
+    width: 70%;
   }
  
   .bar .line.php span{
     width: 40%;
   }
-  .bar .line.mysql span{
+
+  .bar .line.java span{
     width: 30%;
   }
-  .bar .line.js span{
-    width: 20%;
+  .bar .line.mysql span{
+    width: 80%;
   }
-  .bar .line.java span{
-    width: 15%;
+  .bar .line.mongoDb span{
+    width: 70%;
+  }
+  .bar .line.node span{
+    width: 80%;
+  }
+
+  .bar .line.express span{
+    width: 80%;
+  }
+  .bar .line.react span{
+    width: 60%;
+  }
+  
+  .bar .line.git span{
+    width: 80%;
+  }
+  .bar .line.github span{
+    width: 80%;
   }
   
   .line span::before{
@@ -389,25 +414,44 @@ a{
     content: "80%";
   }
   .line.css span::after{
-    content: "70%";
+    content: "80%";
+  }
+  .line.js span::after{
+    content: "85%";
   }
   .line.python span::after{
     content: "60%";
   }
   .line.c span::after{
-    content: "50%";
+    content: "70%";
   }
   .line.php span::after{
     content: "40%";
   }
-  .line.mysql span::after{
+  .line.java span::after{
     content: "30%";
   }
-  .line.js span::after{
-    content: "20%";
+
+  .line.mysql span::after{
+    content: "80%";
   }
-  .line.java span::after{
-    content: "15%";
+  .line.mongoDb span::after{
+    content: "70%";
+  }
+  .line.node span::after{
+    content: "80%";
+  }
+  .line.express span::after{
+    content: "80%";
+  }
+  .line.react span::after{
+    content: "60%";
+  }
+  .line.git span::after{
+    content: "80%";
+  }
+  .line.github span::after{
+    content: "80%";
   }
   
 .skill_container::after{
@@ -458,6 +502,7 @@ a{
    font-size: medium;
    text-align: center;
    transition: 0.3sec;
+   overflow: scroll;
 }
 
 .project_img{
@@ -473,11 +518,15 @@ a{
     border: 3px white solid;
     padding: 5px;
     border-radius: 50%;
-    background-color: #b5e4e4;
+    background-color: #f9feff;
 }
-.project_card strong{
-   color: black;
-   font-size: large;
+.project_card h2{
+   color: white;
+   font-size: medium;
+}
+.project_card i{
+  color: #0a6796;
+  font-size: medium;
 }
 .project_card a{
    text-decoration: underline;
